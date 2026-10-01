@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Excel Prompt Sender",
+  "version": "1.0",
+  "description": "Sends prompts from an Excel file to Gemini, one by one, 2 seconds apart.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://gemini.google.com/*"]
+}
